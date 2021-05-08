@@ -1,0 +1,30 @@
+.seccion {
+    margin-top: $separacion;
+    margin-bottom: $separacion * 2;
+    
+    h2 {
+        font-weight: $bold;
+    }
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+.contenido-centrado {
+    max-width: 80rem;
+}
+
+.alinear-centro {
+    display: flex;
+    justify-content: center;
+}
+
+.ver-todas {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.w-100 {
+    width: 100%;
+}

@@ -1,0 +1,62 @@
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    border-radius: .4rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+
+    &.error {
+        background-color: #f2dede;
+        border-color: #ebccd1;
+        color: #a94442;
+    }
+
+    &.exito {
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+        color: #3c763d;
+    }
+
+    &.info {
+        background-color: #d9edf7;
+        border-color: #bce8f1;
+        color: #31708f;
+    }
+
+    &.warning {
+        background-color: #fcf8e3;
+        border-color: #faebcc;
+        color: #8a6d3b;
+    }
+}
+
+table.propiedades {
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead {
+        background-color: $gris-oscuro;
+
+        th {
+            color: $blanco;
+            padding: 2rem;
+            text-align: left !important;
+        }
+
+        .acciones {
+            text-align: center !important;
+        }
+    }
+
+    .imagen-tabla {
+        width: 12rem;
+    }
+}
+
+.imagen-small {
+    width: 20rem;
+    margin-bottom: 1.6rem;
+}

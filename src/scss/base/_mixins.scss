@@ -1,0 +1,60 @@
+/** Media Queries **/
+@mixin movil {
+    @media (min-width: #{$movil}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin grid($columnas, $espaciado) {
+    display: grid;
+    gap: $espaciado;
+    grid-template-columns: repeat($columnas, 1fr);
+}
+
+@mixin button($bg-color, $display) {
+    color: $blanco;
+    background-color: $bg-color;
+    font-weight: $bold;
+    text-decoration: none;
+    padding: .5rem 3rem;
+    text-align: center;
+    margin-top: $separacion / 2;
+    border: none;
+    border-radius: .3rem;
+    display: $display;
+
+    &:hover {
+        cursor: pointer;
+        background-color: darken($bg-color, 5);
+    }
+}
+
+@mixin inputButton($bg-color, $display) {
+    color: $blanco;
+    background-color: $bg-color;
+    font-weight: $bold;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: $separacion / 2;
+    border: none;
+    border-radius: .3rem;
+    display: $display;
+
+    &:hover {
+        cursor: pointer;
+        background-color: darken($bg-color, 5);
+    }
+}

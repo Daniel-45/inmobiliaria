@@ -1,0 +1,19 @@
+@include tablet {
+    .iconos-nosotros {
+        @include grid(3, 5rem);
+    }
+}
+
+.icono {
+    text-align: justify;
+
+    img {
+        height: 10rem;
+        margin: 0 auto;
+    }
+
+    h4 {
+        font-weight: $bold;
+        text-align: center;
+    }
+}

@@ -1,0 +1,56 @@
+.boton-naranja {
+    @include button($naranja, inline-block);
+}
+
+.boton-naranja-block {
+    @include button($naranja, block);
+}
+
+.boton-azul {
+    @include button($azul, inline-block);
+}
+
+.boton-azul-block {
+    @include button($azul, block);
+}
+
+.boton-verde {
+    @include button($verde, inline-block);
+}
+
+.boton-verde-block {
+    @include button($verde, block);
+}
+
+.boton-indigo {
+    @include button($indigo, inline-block);
+}
+
+.boton-indigo-block {
+    @include button($indigo, block);
+}
+
+.boton-rojo {
+    @include button($rojo, inline-block);
+}
+
+.boton-rojo-block {
+    @include button($rojo, block);
+}
+
+.input-boton-naranja {
+    @include inputButton($naranja, block);
+}
+
+.input-boton-azul {
+    @include inputButton($azul, block);
+}
+
+.input-boton-verde {
+    @include inputButton($verde, block);
+}
+
+.input-boton-rojo {
+    width: 100%;
+    @include inputButton($rojo, block);
+}
